@@ -11,6 +11,8 @@ project(OSM_A_star_search)
 # Set library output path to /lib
 set(LIBRARY_OUTPUT_PATH "${CMAKE_SOURCE_DIR}/lib")
 
+# civcode 2022-06-25
+# Add search path for io2dConfig.cmake
 list(APPEND CMAKE_PREFIX_PATH "/home/chris/Documents/io2d/install/lib/cmake/io2d/")
 
 # Locate project prerequisites
